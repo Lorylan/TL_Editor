@@ -1,11 +1,10 @@
 # Librerias #
 import PySimpleGUI as sg
-import numpy as np 
 from Components import *
 from FiltroComplejo import *
 from FiltroSimple import *
 from Transformar import *
-import copy
+
 
 def main ():
     key_filtro_simple= ["-ESCALA_DE_GRISES-","-SEPIA-","-INVERTIR-"]
