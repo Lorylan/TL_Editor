@@ -9,7 +9,7 @@ class Components(object):
         return sg.FileBrowse(button_text, file_types=([(file_types)]))
     
     def __in(self, enable_events, key):
-        return sg.In(enable_events=enable_events, key=key)
+        return sg.In(enable_events=enable_events, key=key, readonly=True)
     
     def __image(self, key, width, height):
         return sg.Image(key=key, size=(width,height))
